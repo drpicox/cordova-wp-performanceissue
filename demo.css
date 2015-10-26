@@ -1,0 +1,41 @@
+html,body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+h1,h2,h3,h4,h5 {
+	margin: 0;
+	margin-bottom: 0.1em;
+}
+.index-head {
+	position:absolute;
+	height: 20px;
+	top: 0; left: 0; right: 0;
+	background: #fdd;	
+}
+.index-main {
+	position: absolute;
+	top: 20px; left: 0; right: 0; bottom: 0;
+}
+.list-limit {
+	position: absolute;
+	top: 0; left: 0; right: 0; bottom: 40px;
+	background: #dfd;
+}
+.list-container {
+	position: absolute;
+	top: 40px; left: 0; right: 0; bottom: 0;
+	overflow: auto;
+}
+.list-item {
+	border-top: solid 1px gray;
+	border-bottom: none;
+	background: #ddf;
+	height: 94px;
+}
+.list-item-selected {
+	background: #fff;
+}
+.list-item.ng-click-active {
+	background: #66f;
+}

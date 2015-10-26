@@ -1,0 +1,26 @@
+{
+  "name": "cordova-wp-performanceproblem",
+  "version": "0.0.0",
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "authors": [
+    "David Rodenas <david.rodenas@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "winstore-jscompat": "https://github.com/MSOpenTech/winstore-jscompat.git",
+    "angular": "~1.4.7",
+    "angular-animate": "~1.4.7",
+    "angular-route": "~1.4.7",
+    "angular-touch": "~1.4.7"
+  }
+}

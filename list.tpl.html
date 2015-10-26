@@ -1,0 +1,16 @@
+<div class="list-limit" ng-init="limit = vm.contents.list.length">
+	Item count: {{vm.contents.list.length}}<br>
+	<input type="number" ng-model="limit">
+	<button ng-click="vm.contents.setLimit(limit)">Update</button>
+	
+</div>
+<div class="list-container">
+	<div class="list-item" 
+	  ng-repeat="item in vm.contents.list track by item.id"
+	  ng-click="vm.goTo(item); vm.contents.last = item" 
+	  ng-class="vm.contents.last === item && 'list-item-selected'">
+		<h3 ng-bind="item.id"></h3>
+		<h4 ng-bind="item.title"></h4>
+		<p ng-bind="item.subtitle"></p>
+	</div>
+</div>
